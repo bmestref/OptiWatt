@@ -8,3 +8,8 @@ This repository provides an advanced optimization tool for managing energy flows
 - Models battery constraints such as capacity, charge/discharge rate, and prevents simultaneous charge/discharge.
 - Optionally exports results to CSV and visualizes dispatch plans with matplotlib.
 - Handles timezone conversion automatically for multiple European countries.
+
+📦 Requirements
+Install the necessary libraries using:
+
+`pip install -r requirements.txt`
