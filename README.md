@@ -1,7 +1,7 @@
 # OptiWatt
 This repository provides an advanced optimization tool for managing energy flows in photovoltaic (PV) systems with battery storage. The EnergyDispatchOptimizer function uses real-time solar irradiance forecasts and electricity market prices to determine the most profitable dispatch strategy, i.e., when to store energy in the battery or sell it to the grid.
 
-🚀 Features
+🚀 Features <br>
 - Mixed-integer optimization using cvxpy with the GUROBI solver.
 - Forecasts solar irradiance from Open-Meteo.
 - Retrieves spot electricity prices from the REE ESIOS API.
@@ -9,14 +9,14 @@ This repository provides an advanced optimization tool for managing energy flows
 - Optionally exports results to CSV and visualizes dispatch plans with matplotlib.
 - Handles timezone conversion automatically for multiple European countries.
 
-📦 Requirements
+📦 Requirements <br>
 Install the necessary libraries using:
 
 `pip install -r requirements.txt`
 
 Additionally, you must have a working installation and license of GUROBI for solving the optimization problem.
 
-📈 What It Solves 
+📈 What It Solves <br>
 This function calculates the optimal energy dispatch from a solar PV system with an optional battery, deciding:
 
 - When to charge the battery (if solar production is higher than current demand or price is low),
@@ -24,7 +24,7 @@ This function calculates the optimal energy dispatch from a solar PV system with
 - When to sell energy directly to the grid, and
 - How to maximize revenue from selling energy at varying hourly electricity prices.
 
-🌍 Supported Countries 
+🌍 Supported Countries <br>
 Electricity price data is supported for:
 
 - 🇵🇹 Portugal (1)
@@ -62,11 +62,11 @@ Charts showing:
     - Battery state
     - Revenue data
 
-🧠 Applications
+🧠 Applications <br>
 - Smart energy management for residential PV installations
 - Feasibility studies for solar and battery economics
 - Real-time microgrid optimization
 - Integration with home energy management systems (HEMS)
 
-📝 License
+📝 License <br>
 This project is open-source under the MIT License. See LICENSE for details.
