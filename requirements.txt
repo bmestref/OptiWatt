@@ -1,0 +1,8 @@
+cvxpy==1.6.0
+numpy==1.26.4
+matplotlib==3.10.0
+requests==2.32.2
+pandas==2.2.2
+openmeteo-requests==1.4.0
+requests-cache==1.2.1
+retry-requests==2.0.0
