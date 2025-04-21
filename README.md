@@ -16,7 +16,7 @@ Install the necessary libraries using:
 
 Additionally, you must have a working installation and license of GUROBI for solving the optimization problem.
 
-📈 What It Solves
+📈 What It Solves ␣␣
 This function calculates the optimal energy dispatch from a solar PV system with an optional battery, deciding:
 
 - When to charge the battery (if solar production is higher than current demand or price is low),
@@ -24,7 +24,7 @@ This function calculates the optimal energy dispatch from a solar PV system with
 - When to sell energy directly to the grid, and
 - How to maximize revenue from selling energy at varying hourly electricity prices.
 
-🌍 Supported Countries
+🌍 Supported Countries ␣␣
 Electricity price data is supported for:
 
 - 🇵🇹 Portugal (1)
@@ -53,7 +53,7 @@ EnergyDispatchOptimizer(
     export = True
 )`
 
-📁 Outputs
+📁 Outputs ␣␣
 Charts showing:
 - Battery state, charge/discharge flows, and spot prices
 - Revenue breakdown from direct sale vs battery discharge
