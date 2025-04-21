@@ -52,3 +52,21 @@ EnergyDispatchOptimizer(
     chart = True,
     export = True
 )`
+
+📁 Outputs
+Charts showing:
+- Battery state, charge/discharge flows, and spot prices
+- Revenue breakdown from direct sale vs battery discharge
+- Optional CSV export with:
+    - Hourly energy flows
+    - Battery state
+    - Revenue data
+
+🧠 Applications
+- Smart energy management for residential PV installations
+- Feasibility studies for solar and battery economics
+- Real-time microgrid optimization
+- Integration with home energy management systems (HEMS)
+
+📝 License
+This project is open-source under the MIT License. See LICENSE for details.
