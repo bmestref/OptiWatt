@@ -149,7 +149,7 @@ def EnergyDispatchOptimizer(latitude, longitude, panel_azimuth, panel_tilt, pane
         raise ValueError("end_date must be in 'YYYY-MM-DDTHH' format, e.g., '2024-03-21T00'.")
 
     # ---- Get Country SPOT Price ----
-    api_token = '196f0f3df07fbb9d99ecbaf511cf4a553ee9df59bd33f635e69c2e95e2bb9295'
+    api_token = '<PUT HERE YOUR ESIOS API KEY>'
     url_base = 'https://api.esios.ree.es/'
     endpoint = 'indicators/'
     indicator = '600'
